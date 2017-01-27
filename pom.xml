@@ -6,7 +6,14 @@
 
     <groupId>com.xie.test</groupId>
     <artifactId>com.xie.base</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>Mybatis</module>
+        <module>MyTomcat</module>
+        <module>DBPools</module>
+        <module>Mybatis2</module>
+    </modules>
 
 
 </project>

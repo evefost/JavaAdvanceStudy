@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/DBPools/DBPools.iml" filepath="$PROJECT_DIR$/DBPools/DBPools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyTomcat/MyTomcat.iml" filepath="$PROJECT_DIR$/MyTomcat/MyTomcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mybatis/Mybatis.iml" filepath="$PROJECT_DIR$/Mybatis/Mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mybatis2/Mybatis2.iml" filepath="$PROJECT_DIR$/Mybatis2/Mybatis2.iml" />
       <module fileurl="file://$PROJECT_DIR$/StudyBase.iml" filepath="$PROJECT_DIR$/StudyBase.iml" />
     </modules>
   </component>

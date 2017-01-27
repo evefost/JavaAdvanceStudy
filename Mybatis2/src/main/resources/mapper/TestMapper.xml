@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper namespace="com.xie.mybatis2.dao.TestMapper">
+
+    <select id="queryContent" parameterType="java.util.Map" resultMap="ContentResultMap">
+        SELECT * FROM tb1
+    </select>
+    <resultMap id="ContentResultMap" type="com.xie.mybatis2.testBean.TestBean">
+        <id column="id" property="id" jdbcType="DECIMAL" javaType="int"/>
+        <result column="name" property="name" jdbcType="VARCHAR" javaType="string"/>
+    </resultMap>
+
+</mapper>

@@ -33,10 +33,10 @@ public class ProxyHandler implements InvocationHandler {
 
     //扩展模块
     private void before() {
-        System.out.println("要做饭了,你想吃什么");
+        System.out.println("jdk 代理,要做饭了,你想吃什么");
     }
 
     private void after() {
-        System.out.println("吃完了,收拾一下吧");
+        System.out.println("jdk 代理,吃完了,收拾一下吧");
     }
 }

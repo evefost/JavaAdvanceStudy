@@ -9,5 +9,5 @@ public interface GoodStudent {
 
     void studyHard(String book);
 
-    void studyHard(String book,int score);
+    void studyHard(String book,float score);
 }

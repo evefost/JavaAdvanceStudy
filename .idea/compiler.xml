@@ -22,10 +22,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="StudyBase" />
+        <module name="DBPools" />
+        <module name="Mybatis" />
+        <module name="Mybatis2" />
+        <module name="MyTomcat" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="DBPools" target="1.5" />
+      <module name="Mybatis" target="1.5" />
+      <module name="Mybatis2" target="1.5" />
+      <module name="MyTomcat" target="1.5" />
       <module name="StudyBase" target="1.5" />
     </bytecodeTargetLevel>
   </component>

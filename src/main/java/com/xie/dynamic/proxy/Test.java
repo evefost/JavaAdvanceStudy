@@ -18,25 +18,36 @@ public class Test {
        //创建一个代理类
         System.out.println("自定义动态代理类==========:");
         try {
-            People people2 = (People) MyProxy.newProxyInstance(People.class.getClassLoader(), People.class, new MyPoxyHandler(new Zhansan()));
+            People people2 = MyProxy.newProxyInstance(People.class.getClassLoader(), People.class, new MyPoxyHandler<People>(new Zhansan()));
             people2.eat();
-        } catch (IOException e) {
+            Animal animal =  MyProxy.newProxyInstance(Animal.class.getClassLoader(), Animal.class, new MyPoxyHandler<Animal>(new Cat()));
+            animal.eat();
+            if(animal.catchMouse()){
+                System.out.println("抓到了老...");
+            }else {
+                System.out.println("没抓到了老...");
+            }
+        } catch (Exception e) {
             e.printStackTrace();
         } catch (Throwable throwable) {
             throwable.printStackTrace();
         }
 
-        System.out.println("jdk动态代理类========");
-        People people = (People) Proxy.newProxyInstance(People.class.getClassLoader(), new Class[]{People.class}, new ProxyHandler(new Zhansan()));
 
-        try {
-            people.eat();
-        } catch (Throwable throwable) {
-            throwable.printStackTrace();
-        }
+        System.out.println();
+        System.out.println();
 
-        System.out.println("动态代理类名字:"+people.getClass().getName());
-        createProxyClassFile();
+//        System.out.println("jdk动态代理类========");
+//        People people = (People) Proxy.newProxyInstance(People.class.getClassLoader(), new Class[]{People.class}, new ProxyHandler(new Zhansan()));
+//
+//        try {
+//            people.eat();
+//        } catch (Throwable throwable) {
+//            throwable.printStackTrace();
+//        }
+//
+//        System.out.println("动态代理类名字:"+people.getClass().getName());
+//        createProxyClassFile();
     }
 
     //将运行时期动态代理对象提取出,保存到当前项目路下
