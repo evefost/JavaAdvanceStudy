@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
 <mapper namespace="com.xie.mybatis2.dao.TestMapper">
 
-    <select id="queryContent" parameterType="java.util.Map" resultMap="ContentResultMap">
-        SELECT * FROM tb1
+    <select id="selectList" parameterType="java.util.Map" resultMap="ContentResultMap">
+        SELECT * FROM tb1 WHERE id=#{id}
+    </select>
+
+    <select id="selectOne" parameterType="java.util.Map" resultMap="ContentResultMap">
+    SELECT * FROM tb1 WHERE id=#{id}
     </select>
     <resultMap id="ContentResultMap" type="com.xie.mybatis2.testBean.TestBean">
-        <id column="id" property="id" jdbcType="DECIMAL" javaType="int"/>
+        <result column="id" property="id" jdbcType="DECIMAL" javaType="int"/>
         <result column="name" property="name" jdbcType="VARCHAR" javaType="string"/>
     </resultMap>
 

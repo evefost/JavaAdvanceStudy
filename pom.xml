@@ -14,6 +14,35 @@
         <module>DBPools</module>
         <module>Mybatis2</module>
     </modules>
+    <dependencies>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
+        </dependency>
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>2.9.0</version>
+        </dependency>
 
+    </dependencies>
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <name>Releases</name>
+            <url>http://172.16.165.128:8081/nexus/content/repositories/releases</url>
+        </repository>
+        <!--<repository>-->
+        <!--<id>depart1</id>-->
+        <!--<name>depart1</name>-->
+        <!--<url>http://172.16.165.128:8081/nexus/content/repositories/depart1/</url>-->
+        <!--</repository>-->
 
+        <!--<snapshotRepository>-->
+        <!--<id>snapshots</id>-->
+        <!--<name>Snapshots</name>-->
+        <!--<url>http://172.16.165.128:8081/nexus/content/repositories/snapshots/</url>-->
+        <!--</snapshotRepository>-->
+    </distributionManagement>
 </project>

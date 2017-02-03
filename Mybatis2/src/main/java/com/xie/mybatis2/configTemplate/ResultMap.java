@@ -14,9 +14,9 @@ public class ResultMap {
     //影射的类
     private Class<?> typeClass;
 
-    private List<ResultMapping> idResultMapping;
+    private List<ResultMapping> idResultMappings;
 
-    private List<ResultMapping> resultMapping;
+    private List<ResultMapping> resultMappings;
 
     public String getId() {
         return id;
@@ -42,19 +42,19 @@ public class ResultMap {
         this.typeClass = typeClass;
     }
 
-    public List<ResultMapping> getIdResultMapping() {
-        return idResultMapping;
+    public List<ResultMapping> getIdResultMappings() {
+        return idResultMappings;
     }
 
-    public void setIdResultMapping(List<ResultMapping> idResultMapping) {
-        this.idResultMapping = idResultMapping;
+    public void setIdResultMappings(List<ResultMapping> idResultMappings) {
+        this.idResultMappings = idResultMappings;
     }
 
-    public List<ResultMapping> getResultMapping() {
-        return resultMapping;
+    public List<ResultMapping> getResultMappings() {
+        return resultMappings;
     }
 
-    public void setResultMapping(List<ResultMapping> resultMapping) {
-        this.resultMapping = resultMapping;
+    public void setResultMappings(List<ResultMapping> resultMappings) {
+        this.resultMappings = resultMappings;
     }
 }

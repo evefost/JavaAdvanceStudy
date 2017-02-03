@@ -1,9 +1,16 @@
 package com.xie.mybatis2.sqlNode;
 
 /**
- * Created by xieyang on 17/1/26.
+ * 最终解释出来的 sql
  */
 public class BoundSql {
+
+    private String sql;
+
+    public BoundSql(String sql) {
+        this.sql = sql;
+    }
+
     public String getSql() {
         return sql;
     }
@@ -12,6 +19,5 @@ public class BoundSql {
         this.sql = sql;
     }
 
-    private String sql;
 
 }

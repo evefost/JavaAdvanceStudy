@@ -7,9 +7,29 @@
         <groupId>com.xie.test</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>com.xie.mytomcat</artifactId>
+    <packaging>jar</packaging>
+    <!--项目发布到私服，maven项目使用命令：mvn clean deploy-->
+    <!--<distributionManagement>-->
+    <!--<repository>-->
+    <!--<id>releases</id>-->
+    <!--<name>Releases</name>-->
+    <!--<url>http://172.16.165.128:8081/nexus/content/repositories/releases</url>-->
+    <!--</repository>-->
+    <!--&lt;!&ndash;<repository>&ndash;&gt;-->
+    <!--&lt;!&ndash;<id>depart1</id>&ndash;&gt;-->
+    <!--&lt;!&ndash;<name>depart1</name>&ndash;&gt;-->
+    <!--&lt;!&ndash;<url>http://172.16.165.128:8081/nexus/content/repositories/depart1/</url>&ndash;&gt;-->
+    <!--&lt;!&ndash;</repository>&ndash;&gt;-->
 
+    <!--&lt;!&ndash;<snapshotRepository>&ndash;&gt;-->
+    <!--&lt;!&ndash;<id>snapshots</id>&ndash;&gt;-->
+    <!--&lt;!&ndash;<name>Snapshots</name>&ndash;&gt;-->
+    <!--&lt;!&ndash;<url>http://172.16.165.128:8081/nexus/content/repositories/snapshots/</url>&ndash;&gt;-->
+    <!--&lt;!&ndash;</snapshotRepository>&ndash;&gt;-->
+    <!--</distributionManagement>-->
 
 </project>

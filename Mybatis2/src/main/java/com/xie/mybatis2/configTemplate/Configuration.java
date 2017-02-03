@@ -12,7 +12,7 @@ public class Configuration {
     private Map<String,MappedStatement> statementMap = new HashMap<String, MappedStatement>();
 
     //返回对象的map
-    private Map<String,ResultMap> resultMapMap = new HashMap<String, ResultMap>();
+    private Map<String, ResultMap> resultMaps = new HashMap<String, ResultMap>();
 
     private Enviroment enviroment;
 
@@ -21,17 +21,18 @@ public class Configuration {
         return statementMap;
     }
 
+    public Map<String, ResultMap> getResultMaps() {
+        return resultMaps;
+    }
+
+    public void setResultMaps(Map<String, ResultMap> resultMaps) {
+        this.resultMaps = resultMaps;
+    }
+
     public void setStatementMap(Map<String, MappedStatement> statementMap) {
         this.statementMap = statementMap;
     }
 
-    public Map<String, ResultMap> getResultMapMap() {
-        return resultMapMap;
-    }
-
-    public void setResultMapMap(Map<String, ResultMap> resultMapMap) {
-        this.resultMapMap = resultMapMap;
-    }
 
     public Enviroment getEnviroment() {
         return enviroment;

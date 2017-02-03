@@ -12,6 +12,7 @@ public class StaticTextSqlNode implements SqlNode {
     }
 
     public boolean appendTo(DynamicContext context) {
+        context.getSb().append(text);
         return false;
     }
 

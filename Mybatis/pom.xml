@@ -10,6 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>com.xie.mybatis</artifactId>
+    <packaging>jar</packaging>
 
 
 </project>

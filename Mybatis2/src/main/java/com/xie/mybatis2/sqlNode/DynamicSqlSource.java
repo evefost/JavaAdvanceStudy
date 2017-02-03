@@ -1,5 +1,7 @@
 package com.xie.mybatis2.sqlNode;
 
+import com.dongnao.jack.sqlNode.ExpressionParseUtil;
+
 import java.util.List;
 
 /**
@@ -13,7 +15,22 @@ public class DynamicSqlSource implements SqlSource {
         this.sqlNodes = sqlNodes;
     }
 
+    /**
+     * 为什么这样子做
+     *
+     * @param param
+     * @return
+     */
     public BoundSql getBoundSql(Object param) {
-        return null;
+
+        DynamicContext context = new DynamicContext(new StringBuffer(), param);
+
+        for (SqlNode sqlnode : sqlNodes) {
+            sqlnode.appendTo(context);
+        }
+
+        StringBuffer sql = ExpressionParseUtil.parse(context.getSb(), param);
+
+        return new BoundSql(sql.toString());
     }
 }
