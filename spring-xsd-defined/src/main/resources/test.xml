@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:xie="http://www.lexueba.com/schema/user"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	 http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+     http://www.lexueba.com/schema/user
+     http://www.lexueba.com/schema/user2">
+
+    <bean id="ddd"/>
+    <!--schemaLocation 指定了用于解析和校验xml的定义文件（xsd）的位置。-->
+    <xie:user id="testBean" userName="cong" email="mail.163.com"/>
+    <xie:lastname id="vvvv" debug="false" lang="EN" lang2="wwww"/>
+    <xie:age>100</xie:age>
+
+
+    <xie:student>
+        <xie:fistName>sss</xie:fistName>
+    </xie:student>
+
+    <xie:person>
+
+
+        <xie:employee>
+            <xie:fistName>cc</xie:fistName>
+        </xie:employee>
+    </xie:person>
+
+</beans>

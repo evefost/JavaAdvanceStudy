@@ -6,7 +6,18 @@
       <module fileurl="file://$PROJECT_DIR$/MyTomcat/MyTomcat.iml" filepath="$PROJECT_DIR$/MyTomcat/MyTomcat.iml" />
       <module fileurl="file://$PROJECT_DIR$/Mybatis/Mybatis.iml" filepath="$PROJECT_DIR$/Mybatis/Mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/Mybatis2/Mybatis2.iml" filepath="$PROJECT_DIR$/Mybatis2/Mybatis2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NettyChat/NettyChat.iml" filepath="$PROJECT_DIR$/NettyChat/NettyChat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NioDemo/NioDemo.iml" filepath="$PROJECT_DIR$/NioDemo/NioDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootDemo/SpringBootDemo.iml" filepath="$PROJECT_DIR$/SpringBootDemo/SpringBootDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/StudyBase.iml" filepath="$PROJECT_DIR$/StudyBase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZkClientDemo/ZkClientDemo.iml" filepath="$PROJECT_DIR$/ZkClientDemo/ZkClientDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-rpc/demo1/demo1.iml" filepath="$PROJECT_DIR$/java-rpc/demo1/demo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dongnao-vip-netty/dongnao-vip-netty.iml" filepath="$PROJECT_DIR$/dongnao-vip-netty/dongnao-vip-netty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/failover/failover.iml" filepath="$PROJECT_DIR$/failover/failover.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-rpc/java-rpc.iml" filepath="$PROJECT_DIR$/java-rpc/java-rpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootDemo/spring-api/spring-api.iml" filepath="$PROJECT_DIR$/SpringBootDemo/spring-api/spring-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootDemo/spring-provider/spring-provider.iml" filepath="$PROJECT_DIR$/SpringBootDemo/spring-provider/spring-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-xsd-defined/spring-xsd-defined.iml" filepath="$PROJECT_DIR$/spring-xsd-defined/spring-xsd-defined.iml" />
     </modules>
   </component>
 </project>

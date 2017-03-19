@@ -39,7 +39,6 @@ public class NIOServer {
         serverSocketChannel.socket().bind(new InetSocketAddress(this.port));
         //设置为非阻塞
         serverSocketChannel.configureBlocking(false);
-
         selector = Selector.open();
 
         //注册接入事件
@@ -53,7 +52,7 @@ public class NIOServer {
 
         while (true) {
             //只要反应堆里面没东西了，那么就会阻塞在这个位置（相当于排队）
-            int i = selector.select();//阻塞方法,就相当于调用了wakeup，是一个阻塞方法
+            int i = selector.selectNow();//阻塞方法,就相当于调用了wakeup，是一个阻塞方法
 
             if (i == 0) {
                 continue;
@@ -102,7 +101,6 @@ public class NIOServer {
                 sessionMsg.put(key, msg);
                 System.out.println(System.currentTimeMillis() + " 收到客户端信息:" + msg);
             }
-            //���߽к�ϵͳ����һ���Ҹ���Ȥ���¼�����Ҫд������
             client.register(selector, SelectionKey.OP_WRITE);
         } else if (key.isWritable()) {
             System.out.println("process  可写，注册可读作事件");

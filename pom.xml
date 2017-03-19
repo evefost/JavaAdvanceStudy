@@ -13,6 +13,12 @@
         <module>MyTomcat</module>
         <module>DBPools</module>
         <module>Mybatis2</module>
+        <module>ZkClientDemo</module>
+        <module>NioDemo</module>
+        <module>NettyChat</module>
+        <module>SpringBootDemo</module>
+        <module>java-rpc</module>
+        <module>spring-xsd-defined</module>
     </modules>
     <dependencies>
         <dependency>
@@ -25,13 +31,23 @@
             <artifactId>jedis</artifactId>
             <version>2.9.0</version>
         </dependency>
+        <dependency>
+            <groupId>xie.test.nexus</groupId>
+            <artifactId>NexusTest</artifactId>
+            <version>1.0</version>
+        </dependency>
 
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>dubbo</artifactId>
+            <version>2.5.3</version>
+        </dependency>
     </dependencies>
     <distributionManagement>
         <repository>
             <id>releases</id>
             <name>Releases</name>
-            <url>http://172.16.165.128:8081/nexus/content/repositories/releases</url>
+            <url>http://172.16.165.145:9999/nexus/content/repositories/releases</url>
         </repository>
         <!--<repository>-->
         <!--<id>depart1</id>-->

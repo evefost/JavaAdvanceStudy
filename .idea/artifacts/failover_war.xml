@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="failover:war">
+    <output-path>$PROJECT_DIR$/failover/target</output-path>
+    <root id="archive" name="failover.war">
+      <element id="artifact" artifact-name="failover:war exploded" />
+    </root>
+  </artifact>
+</component>
