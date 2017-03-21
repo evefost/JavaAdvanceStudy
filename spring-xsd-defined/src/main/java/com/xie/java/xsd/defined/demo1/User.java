@@ -1,19 +1,11 @@
 package com.xie.java.xsd.defined.demo1;
 
+/*
+ * 1.通过xsd 自定标签spring 注入的类
+ */
 public class User {
-    public School getSchool() {
-        return school;
-    }
-
-    public void setSchool(School school) {
-        this.school = school;
-    }
-
     private String userName;
     private String email;
-
-    private School school;
-
 
     public String getUserName() {
         return userName;
@@ -30,5 +22,4 @@ public class User {
     public void setEmail(String email) {
         this.email = email;
     }
-
 }

@@ -9,6 +9,7 @@ import java.io.FileReader;
 public class FileUtils {
 
     public static String getFileContent(String path) {
+
         StringBuffer sb = new StringBuffer();
         BufferedReader br = null;
         try {

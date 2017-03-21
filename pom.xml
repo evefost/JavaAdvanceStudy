@@ -19,6 +19,7 @@
         <module>SpringBootDemo</module>
         <module>java-rpc</module>
         <module>spring-xsd-defined</module>
+        <module>java-spi</module>
     </modules>
     <dependencies>
         <dependency>

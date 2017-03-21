@@ -15,6 +15,9 @@
       <module fileurl="file://$PROJECT_DIR$/dongnao-vip-netty/dongnao-vip-netty.iml" filepath="$PROJECT_DIR$/dongnao-vip-netty/dongnao-vip-netty.iml" />
       <module fileurl="file://$PROJECT_DIR$/failover/failover.iml" filepath="$PROJECT_DIR$/failover/failover.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-rpc/java-rpc.iml" filepath="$PROJECT_DIR$/java-rpc/java-rpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-spi/java-spi.iml" filepath="$PROJECT_DIR$/java-spi/java-spi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-spi/spi-client/spi-client.iml" filepath="$PROJECT_DIR$/java-spi/spi-client/spi-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-spi/spi-test/spi-test.iml" filepath="$PROJECT_DIR$/java-spi/spi-test/spi-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootDemo/spring-api/spring-api.iml" filepath="$PROJECT_DIR$/SpringBootDemo/spring-api/spring-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootDemo/spring-provider/spring-provider.iml" filepath="$PROJECT_DIR$/SpringBootDemo/spring-provider/spring-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-xsd-defined/spring-xsd-defined.iml" filepath="$PROJECT_DIR$/spring-xsd-defined/spring-xsd-defined.iml" />

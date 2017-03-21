@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema
-        xmlns:xs="http://www.w3.org/2001/XMLSchema"
-        targetNamespace="http://www.lexueba.com/schema/user">
-
-
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.lexueba.com/schema/user"
+           elementFormDefault="qualified">
     <!--
         schema xmlns:targetNamespace
         targetNamespace :1表示文档中要定义的元素来自什么命名空间
@@ -17,86 +15,5 @@
             <xs:attribute name="email" type="xs:string"/>
         </xs:complexType>
     </xs:element>
-
-    <xs:element name="lastname">
-        <xs:complexType>
-            <!--字符串属性值-->
-            <xs:attribute name="id" type="xs:string"/>
-            <!--boolean 类型属性值 -->
-            <xs:attribute name="debug" type="xs:boolean"/>
-            <!--固定属性值-->
-            <xs:attribute name="lang" type="xs:string" fixed="EN"/>
-            <!--在缺省的情况下，属性是可选的。如需规定属性为必选，请使用 "use" 属性：-->
-            <xs:attribute name="lang2" type="xs:string" use="required"/>
-        </xs:complexType>
-    </xs:element>
-
-    <!--限定 ：下面的例子定义了带有一个限定且名为 "age" 的元素。age 的值不能低于 0 或者高于 120：-->
-    <xs:element name="age">
-        <xs:simpleType>
-            <xs:restriction base="xs:integer">
-                <xs:minInclusive value="0"/>
-                <xs:maxInclusive value="120"/>
-            </xs:restriction>
-        </xs:simpleType>
-
-    </xs:element>
-    <!--   复合元素？-->
-
-    <!--<xs:element name="employee">-->
-    <!--<xs:complexType>-->
-    <!--<xs:sequence>-->
-    <!--<xs:element name="firstname" type="xs:string"/>-->
-    <!--<xs:element name="lastname" type="xs:string"/>-->
-    <!--</xs:sequence>-->
-    <!--</xs:complexType>-->
-    <!--</xs:element>-->
-
-    <!--<xs:complexType name="personinfo">-->
-    <!--<xs:sequence>-->
-    <!--<xs:element name="firstname" type="xs:string"/>-->
-    <!--<xs:element name="lastname" type="xs:string"/>-->
-    <!--</xs:sequence>-->
-    <!--</xs:complexType>-->
-
-    <!--<xs:element name="student" type="personinfo"/>-->
-    <!--<xs:element name="member" type="personinfo"/>-->
-    <xs:complexType name="personinfo">
-        <xs:sequence>
-            <xs:element name="fistName" type="xs:string"></xs:element>
-        </xs:sequence>
-    </xs:complexType>
-    <xs:element name="student" type='personinfo'></xs:element>
-
-    <!--<xs:element name="employee" type="fullpersoninfo"/>-->
-
-    <xs:complexType name="member">
-        <xs:sequence>
-            <xs:element name="mm1" type="xs:string"/>
-        </xs:sequence>
-    </xs:complexType>
-
-    <xs:complexType name="fullpersoninfo">
-        <xs:complexContent>
-            <xs:extension base="personinfo">
-                <xs:sequence>
-                    <xs:element name="address" type="xs:string"/>
-                    <xs:element name="city" type="xs:string"/>
-                    <xs:element name="country" type="xs:string"/>
-                </xs:sequence>
-            </xs:extension>
-        </xs:complexContent>
-    </xs:complexType>
-
-    <xs:element name="person">
-        <xs:complexType>
-            <xs:choice minOccurs="1" maxOccurs="unbounded">
-                <!--仅可出现以下之一-->
-                <xs:element name="employee" type="personinfo"/>
-                <xs:element name="member" type="member"/>
-            </xs:choice>
-        </xs:complexType>
-    </xs:element>
-
 
 </xs:schema>
