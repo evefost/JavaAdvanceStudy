@@ -109,7 +109,7 @@ public class MyProxy {
         //删字节码文件
         File clazzFile = new File(basePath + proxyName + ".class");
         if (clazzFile.exists()) {
-            clazzFile.delete();
+            // clazzFile.delete();
         }
         return clazz;
     }

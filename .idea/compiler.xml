@@ -10,9 +10,11 @@
         <module name="demo1" />
         <module name="dongnao-vip-netty" />
         <module name="failover" />
+        <module name="java-asm" />
         <module name="Mybatis" />
         <module name="Mybatis2" />
         <module name="MyTomcat" />
+        <module name="netty_power_guide" />
         <module name="NettyChat" />
         <module name="NioDemo" />
         <module name="spi-client" />
@@ -24,25 +26,28 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="DBPools" target="1.5" />
-      <module name="demo1" target="1.5" />
+      <module name="DBPools" target="1.7" />
+      <module name="demo1" target="1.7" />
       <module name="dongnao-vip-netty" target="1.6" />
       <module name="failover" target="1.5" />
-      <module name="java-rpc" target="1.5" />
-      <module name="java-spi" target="1.8" />
-      <module name="Mybatis" target="1.5" />
-      <module name="Mybatis2" target="1.5" />
-      <module name="MyTomcat" target="1.5" />
-      <module name="NettyChat" target="1.5" />
-      <module name="NioDemo" target="1.5" />
-      <module name="spi-client" target="1.8" />
-      <module name="spi-test" target="1.8" />
-      <module name="spring-api" target="1.5" />
-      <module name="spring-provider" target="1.5" />
-      <module name="spring-xsd-defined" target="1.5" />
-      <module name="SpringBootDemo" target="1.5" />
-      <module name="StudyBase" target="1.5" />
-      <module name="ZkClientDemo" target="1.5" />
+      <module name="java-asm" target="1.7" />
+      <module name="java-class" target="1.7" />
+      <module name="java-rpc" target="1.7" />
+      <module name="java-spi" target="1.7" />
+      <module name="Mybatis" target="1.7" />
+      <module name="Mybatis2" target="1.7" />
+      <module name="MyTomcat" target="1.7" />
+      <module name="netty_power_guide" target="1.7" />
+      <module name="NettyChat" target="1.7" />
+      <module name="NioDemo" target="1.7" />
+      <module name="spi-client" target="1.7" />
+      <module name="spi-test" target="1.7" />
+      <module name="spring-api" target="1.7" />
+      <module name="spring-provider" target="1.7" />
+      <module name="spring-xsd-defined" target="1.7" />
+      <module name="SpringBootDemo" target="1.7" />
+      <module name="StudyBase" target="1.7" />
+      <module name="ZkClientDemo" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

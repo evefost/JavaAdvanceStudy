@@ -20,6 +20,8 @@
         <module>java-rpc</module>
         <module>spring-xsd-defined</module>
         <module>java-spi</module>
+        <module>java-class</module>
+        <module>netty_power_guide</module>
     </modules>
     <dependencies>
         <dependency>
@@ -62,4 +64,16 @@
         <!--<url>http://172.16.165.128:8081/nexus/content/repositories/snapshots/</url>-->
         <!--</snapshotRepository>-->
     </distributionManagement>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
