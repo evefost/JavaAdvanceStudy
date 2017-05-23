@@ -1,7 +1,7 @@
 package com.phei.netty.sync;
 
 import com.phei.netty.sync.client.ClientSocket;
-import com.phei.netty.sync.msg.Request;
+import com.phei.netty.sync.msg.Message;
 import com.phei.netty.sync.msg.Respone;
 import com.phei.netty.sync.util.ChannelWriteUtils;
 import io.netty.channel.ChannelFuture;
@@ -29,12 +29,12 @@ public class ClientStart {
                     continue;
                 }
                 //构建发送参数
-                Request request = new Request();
+                Message request = new Message();
                 request.setSync(true);
                 request.setData("查询用户信息");
                 Respone respone = ChannelWriteUtils.writeAndFlush(future.channel(), request);
                 System.out.println("调用结果：" + respone.getResult());
-                Thread.sleep(1000);
+                //Thread.sleep(1);
             }
         } catch (Exception e) {
             System.out.println(e.getMessage());

@@ -3,7 +3,7 @@ package com.phei.netty.sync.util;
 import com.phei.netty.sync.exception.RemoteException;
 import com.phei.netty.sync.future.SyncFuture;
 import com.phei.netty.sync.future.WriteFuture;
-import com.phei.netty.sync.msg.Request;
+import com.phei.netty.sync.msg.Message;
 import com.phei.netty.sync.msg.Respone;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelFuture;
@@ -19,11 +19,11 @@ public class ChannelWriteUtils {
 
     public static long DEFAULT_TIMEOUT = 3000;
 
-    public static Respone writeAndFlush(Channel channel, Request request) throws Exception {
+    public static Respone writeAndFlush(Channel channel, Message request) throws Exception {
         return writeAndFlush(channel, request, DEFAULT_TIMEOUT);
     }
 
-    public static Respone writeAndFlush(Channel channel, Request request, long timeout) throws Exception {
+    public static Respone writeAndFlush(Channel channel, Message request, long timeout) throws Exception {
         if (channel == null) {
             throw new NullPointerException("channel");
         }
@@ -41,7 +41,7 @@ public class ChannelWriteUtils {
     }
 
 
-    private static Respone doWriteAndFlush(Channel channel, Request request, long timeout, WriteFuture<Respone> writeFuture) throws Exception {
+    private static Respone doWriteAndFlush(Channel channel, Message request, long timeout, WriteFuture<Respone> writeFuture) throws Exception {
         ChannelFuture channelFuture = channel.writeAndFlush(request);
         if (request.isSync()) {
             System.out.println("同步发送");

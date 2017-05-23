@@ -3,7 +3,7 @@ package com.phei.netty.sync.msg;
 import java.util.concurrent.atomic.AtomicLong;
 
 
-public class Request {
+public class Message {
 
     private static final AtomicLong INVOKE_ID = new AtomicLong(0);
 
@@ -22,7 +22,7 @@ public class Request {
         isSync = sync;
     }
 
-    public Request() {
+    public Message() {
         mId = newId();
     }
 
