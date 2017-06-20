@@ -22,6 +22,7 @@
         <module>java-spi</module>
         <module>java-class</module>
         <module>netty_power_guide</module>
+        <module>data-struct</module>
     </modules>
     <dependencies>
         <dependency>

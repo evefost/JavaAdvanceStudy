@@ -12,6 +12,15 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
+/**
+ * Java中定义了四个常量来表示这四种操作类型：
+ * SelectionKey.OP_CONNECT  客户端关注连接上
+ * SelectionKey.OP_ACCEPT    服务端关注客户端接入
+ * SelectionKey.OP_READ
+ * SelectionKey.OP_WRITE
+ * 如果Selector对通道的多操作类型感兴趣，可以用“位或”操作符来实
+ * int interestSet=SelectionKey.OP_READ|SelectionKey.OP_WRITE;
+ */
 public class NIOServer {
     int port = 8080;
     ServerSocketChannel serverSocketChannel;
@@ -41,7 +50,7 @@ public class NIOServer {
         serverSocketChannel.configureBlocking(false);
         selector = Selector.open();
 
-        //注册接入事件
+        //注册接入事件,服务端自已这个通道只关注接入
         serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT);
 
         System.out.println("NIO Server启动 " + this.port);
@@ -88,6 +97,10 @@ public class NIOServer {
             SocketChannel client = serverSocketChannel.accept();
 //			System.out.println(client);
             client.configureBlocking(false);
+            //注册读事件后，当某个客户端的channel 有写数据进来，Selector 中有会有该channel的信息
+            //selector.selectedKeys()
+            //如果Selector对通道的多操作类型感兴趣，可以用“位或”操作符来实现：
+            // int interestSet=SelectionKey.OP_READ|SelectionKey.OP_WRITE
             client.register(selector, SelectionKey.OP_READ);
         } else if (key.isReadable()) {
             System.out.println("process  可读，注册关注读操作事件");

@@ -26,6 +26,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="bit-admin" target="1.7" />
+      <module name="bit-client" target="1.7" />
+      <module name="bit-server" target="1.7" />
+      <module name="bit-zookeeper" target="1.7" />
       <module name="DBPools" target="1.7" />
       <module name="demo1" target="1.7" />
       <module name="dongnao-vip-netty" target="1.6" />
@@ -47,6 +51,7 @@
       <module name="spring-xsd-defined" target="1.7" />
       <module name="SpringBootDemo" target="1.7" />
       <module name="StudyBase" target="1.7" />
+      <module name="zk-service-manager" target="1.7" />
       <module name="ZkClientDemo" target="1.7" />
     </bytecodeTargetLevel>
   </component>
