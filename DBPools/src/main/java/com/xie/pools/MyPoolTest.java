@@ -6,7 +6,7 @@ import java.sql.ResultSet;
  * Created by xieyang on 17/1/25.
  */
 public class MyPoolTest {
-    private static MyPoolImpl myPool = PoolManager.getInstance();
+    private static IMyPool myPool = PoolManager.getInstance();
 
     public static void main(String[] args) {
         for (int i=0;i<1;i++){

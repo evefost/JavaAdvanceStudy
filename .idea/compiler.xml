@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="data-struct" />
         <module name="DBPools" />
         <module name="demo1" />
         <module name="dongnao-vip-netty" />
@@ -30,6 +31,7 @@
       <module name="bit-client" target="1.7" />
       <module name="bit-server" target="1.7" />
       <module name="bit-zookeeper" target="1.7" />
+      <module name="data-struct" target="1.7" />
       <module name="DBPools" target="1.7" />
       <module name="demo1" target="1.7" />
       <module name="dongnao-vip-netty" target="1.6" />
