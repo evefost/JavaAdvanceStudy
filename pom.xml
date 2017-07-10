@@ -23,6 +23,7 @@
         <module>java-class</module>
         <module>netty_power_guide</module>
         <module>data-struct</module>
+        <module>nio-demos</module>
     </modules>
     <dependencies>
         <dependency>

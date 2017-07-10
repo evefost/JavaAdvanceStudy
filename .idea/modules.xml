@@ -6,20 +6,21 @@
       <module fileurl="file://$PROJECT_DIR$/MyTomcat/MyTomcat.iml" filepath="$PROJECT_DIR$/MyTomcat/MyTomcat.iml" />
       <module fileurl="file://$PROJECT_DIR$/Mybatis/Mybatis.iml" filepath="$PROJECT_DIR$/Mybatis/Mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/Mybatis2/Mybatis2.iml" filepath="$PROJECT_DIR$/Mybatis2/Mybatis2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/NettyChat/NettyChat.iml" filepath="$PROJECT_DIR$/NettyChat/NettyChat.iml" />
-      <module fileurl="file://$PROJECT_DIR$/NioDemo/NioDemo.iml" filepath="$PROJECT_DIR$/NioDemo/NioDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nio-demos/NettyChat/NettyChat.iml" filepath="$PROJECT_DIR$/nio-demos/NettyChat/NettyChat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nio-demos/NioDemo/NioDemo.iml" filepath="$PROJECT_DIR$/nio-demos/NioDemo/NioDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootDemo/SpringBootDemo.iml" filepath="$PROJECT_DIR$/SpringBootDemo/SpringBootDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/StudyBase.iml" filepath="$PROJECT_DIR$/StudyBase.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZkClientDemo/ZkClientDemo.iml" filepath="$PROJECT_DIR$/ZkClientDemo/ZkClientDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/data-struct/data-struct.iml" filepath="$PROJECT_DIR$/data-struct/data-struct.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-rpc/demo1/demo1.iml" filepath="$PROJECT_DIR$/java-rpc/demo1/demo1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dongnao-vip-netty/dongnao-vip-netty.iml" filepath="$PROJECT_DIR$/dongnao-vip-netty/dongnao-vip-netty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nio-demos/dongnao-vip-netty/dongnao-vip-netty.iml" filepath="$PROJECT_DIR$/nio-demos/dongnao-vip-netty/dongnao-vip-netty.iml" />
       <module fileurl="file://$PROJECT_DIR$/failover/failover.iml" filepath="$PROJECT_DIR$/failover/failover.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-class/java-asm/java-asm.iml" filepath="$PROJECT_DIR$/java-class/java-asm/java-asm.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-class/java-class.iml" filepath="$PROJECT_DIR$/java-class/java-class.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-rpc/java-rpc.iml" filepath="$PROJECT_DIR$/java-rpc/java-rpc.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-spi/java-spi.iml" filepath="$PROJECT_DIR$/java-spi/java-spi.iml" />
-      <module fileurl="file://$PROJECT_DIR$/netty_power_guide/netty_power_guide.iml" filepath="$PROJECT_DIR$/netty_power_guide/netty_power_guide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nio-demos/netty_power_guide/netty_power_guide.iml" filepath="$PROJECT_DIR$/nio-demos/netty_power_guide/netty_power_guide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nio-demos/nio-demos.iml" filepath="$PROJECT_DIR$/nio-demos/nio-demos.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-spi/spi-client/spi-client.iml" filepath="$PROJECT_DIR$/java-spi/spi-client/spi-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-spi/spi-test/spi-test.iml" filepath="$PROJECT_DIR$/java-spi/spi-test/spi-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootDemo/spring-api/spring-api.iml" filepath="$PROJECT_DIR$/SpringBootDemo/spring-api/spring-api.iml" />

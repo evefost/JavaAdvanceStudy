@@ -15,15 +15,31 @@
         <module name="Mybatis" />
         <module name="Mybatis2" />
         <module name="MyTomcat" />
-        <module name="netty_power_guide" />
-        <module name="NettyChat" />
-        <module name="NioDemo" />
+        <module name="nio-demos" />
         <module name="spi-client" />
         <module name="spi-test" />
         <module name="spring-api" />
         <module name="spring-provider" />
         <module name="spring-xsd-defined" />
         <module name="ZkClientDemo" />
+      </profile>
+      <profile name="Annotation profile for com.xie.base" enabled="true">
+        <sourceOutputDir name="../../netty_power_guide/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../netty_power_guide/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="netty_power_guide" />
+      </profile>
+      <profile name="Annotation profile for NettyChat" enabled="true">
+        <sourceOutputDir name="../../NettyChat/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../NettyChat/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="NettyChat" />
+      </profile>
+      <profile name="Annotation profile for NioDemo" enabled="true">
+        <sourceOutputDir name="../../NioDemo/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../NioDemo/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="NioDemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -45,6 +61,7 @@
       <module name="MyTomcat" target="1.7" />
       <module name="netty_power_guide" target="1.7" />
       <module name="NettyChat" target="1.7" />
+      <module name="nio-demos" target="1.7" />
       <module name="NioDemo" target="1.7" />
       <module name="spi-client" target="1.7" />
       <module name="spi-test" target="1.7" />
