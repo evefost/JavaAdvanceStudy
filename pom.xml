@@ -14,14 +14,11 @@
         <module>DBPools</module>
         <module>Mybatis2</module>
         <module>ZkClientDemo</module>
-        <module>NioDemo</module>
-        <module>NettyChat</module>
         <module>SpringBootDemo</module>
         <module>java-rpc</module>
         <module>spring-xsd-defined</module>
         <module>java-spi</module>
         <module>java-class</module>
-        <module>netty_power_guide</module>
         <module>data-struct</module>
         <module>nio-demos</module>
     </modules>
