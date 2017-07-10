@@ -1,5 +1,6 @@
-package com.xie.java.asm.demo1.xsd.defined.demo1;
+package com.xie.java.asm.demo1.xsd.defined.demo1.beandefinition.parser;
 
+import com.xie.java.asm.demo1.xsd.defined.demo1.User;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.beans.factory.xml.AbstractSingleBeanDefinitionParser;
 import org.springframework.util.StringUtils;
@@ -15,14 +16,14 @@ public class UserBeanDefinitionParser extends AbstractSingleBeanDefinitionParser
         return User.class;
     }
 
-    protected void doParse(Element element, BeanDefinitionBuilder bean) {
+    protected void doParse(Element element, BeanDefinitionBuilder builder) {
         String userName = element.getAttribute("userName");
         String email = element.getAttribute("email");
         if (StringUtils.hasText(userName)) {
-            bean.addPropertyValue("userName", userName);
+            builder.addPropertyValue("userName", userName);
         }
         if (StringUtils.hasText(email)) {
-            bean.addPropertyValue("email", email);
+            builder.addPropertyValue("email", email);
         }
     }
 }

@@ -4,6 +4,19 @@ package com.xie.java.asm.demo1.xsd.defined.demo1;
  * Created by xieyang on 17/3/19.
  */
 public class School {
+
+    private String name;
+
+    private String address;
+
+    private int students;
+
+    public School(String name,String address,int students){
+        this.name = name;
+        this.address = address;
+        this.students = students;
+    }
+
     public String getName() {
         return name;
     }
@@ -12,6 +25,19 @@ public class School {
         this.name = name;
     }
 
-    private String name;
+    public String getAddress() {
+        return address;
+    }
 
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public int getStudents() {
+        return students;
+    }
+
+    public void setStudents(int students) {
+        this.students = students;
+    }
 }
