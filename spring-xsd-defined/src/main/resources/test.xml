@@ -2,10 +2,13 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:xie="http://www.lexueba.com/schema/user"
+       xmlns:sc="http://www.lexueba.com/schema/school"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 	   http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
        http://www.lexueba.com/schema/user
-       http://www.lexueba.com/schema/user.xsd">
+       http://www.lexueba.com/schema/user.xsd
+       http://www.lexueba.com/schema/school
+       http://www.lexueba.com/schema/school.xsd">
     <!--注意，命名空间定义的引用
       在使用XML Schema 文档对XML实例文档进行检验，除了要声明名称空间外
       (xmlns="http://www.springframework.org/schema/beans")，
@@ -18,6 +21,8 @@
     <!--schemaLocation 指定了用于解析和校验xml的定义文件（xsd）的位置。-->
     <xie:user id="testBean" userName="cong" email="mail.163.com"/>
 
-    <xie:school id="school" name="shenzheng zhong xue" address="深南大道102" students="123"/>
-    <xie:other  className="com.xie.java.asm.demo1.xsd.defined.demo1.Other"/>
+    <!--<xie:school id="school" name="shenzheng zhong xue" address="深南大道102" students="123"/>-->
+    <xie:other className="com.xie.java.asm.demo1.xsd.defined.demo1.Other"/>
+
+    <sc:school id="school" students="45"/>
 </beans>

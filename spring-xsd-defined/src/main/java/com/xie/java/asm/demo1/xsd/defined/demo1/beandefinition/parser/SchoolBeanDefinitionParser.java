@@ -1,6 +1,6 @@
 package com.xie.java.asm.demo1.xsd.defined.demo1.beandefinition.parser;
 
-import com.xie.java.asm.demo1.xsd.defined.demo1.School;
+import com.xie.java.asm.demo1.xsd.defined.demo1.bean.School;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.beans.factory.xml.AbstractSingleBeanDefinitionParser;
 import org.springframework.util.StringUtils;

@@ -1,4 +1,4 @@
-package com.xie.java.asm.demo1.xsd.defined.demo1;
+package com.xie.java.asm.demo1.xsd.defined.demo1.bean;
 
 /*
  * 1.通过xsd 自定标签spring 注入的类

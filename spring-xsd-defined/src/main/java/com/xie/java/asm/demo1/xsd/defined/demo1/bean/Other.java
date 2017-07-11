@@ -1,4 +1,4 @@
-package com.xie.java.asm.demo1.xsd.defined.demo1;
+package com.xie.java.asm.demo1.xsd.defined.demo1.bean;
 
 /**
  * Created by xieyang on 17/7/10.

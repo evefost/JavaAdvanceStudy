@@ -1,4 +1,6 @@
-package com.xie.java.asm.demo1.xsd.defined.demo1;
+package com.xie.java.asm.demo1.xsd.defined.demo1.bean;
+
+import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  * Created by xieyang on 17/3/19.
@@ -10,6 +12,11 @@ public class School {
     private String address;
 
     private int students;
+
+    @Autowired
+    Student student;
+
+
 
     public School(String name,String address,int students){
         this.name = name;
