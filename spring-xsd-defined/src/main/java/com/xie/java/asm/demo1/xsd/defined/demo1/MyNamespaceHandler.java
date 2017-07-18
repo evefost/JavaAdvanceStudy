@@ -12,7 +12,7 @@ import org.springframework.beans.factory.xml.NamespaceHandlerSupport;
 public class MyNamespaceHandler extends NamespaceHandlerSupport {
 
     public void init() {
-        //如果有多种不种标签，都可以在这里注册
+        //如果有多种不种标签，都可以在这里注册（自定义标签 user,other）
         registerBeanDefinitionParser("user", new UserBeanDefinitionParser());
         registerBeanDefinitionParser("other", new OtherBeanDefinitionParser(Other.class));
 

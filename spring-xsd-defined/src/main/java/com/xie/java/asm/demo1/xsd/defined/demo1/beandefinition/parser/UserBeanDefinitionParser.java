@@ -17,6 +17,7 @@ public class UserBeanDefinitionParser extends AbstractSingleBeanDefinitionParser
     }
 
     protected void doParse(Element element, BeanDefinitionBuilder builder) {
+        //解释定义userName元素
         String userName = element.getAttribute("userName");
         String email = element.getAttribute("email");
         if (StringUtils.hasText(userName)) {

@@ -24,6 +24,10 @@
         </dependency>
 
 
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>dubbo</artifactId>
+        </dependency>
     </dependencies>
 
 </project>
