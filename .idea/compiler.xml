@@ -6,6 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="aop-demo1" />
+        <module name="com.xie.mybatis" />
+        <module name="com.xie.mybatis2" />
         <module name="data-struct" />
         <module name="DBPools" />
         <module name="demo1" />
@@ -28,10 +31,14 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="aop" target="1.7" />
+      <module name="aop-demo1" target="1.7" />
       <module name="bit-admin" target="1.7" />
       <module name="bit-client" target="1.7" />
       <module name="bit-server" target="1.7" />
       <module name="bit-zookeeper" target="1.7" />
+      <module name="com.xie.mybatis" target="1.7" />
+      <module name="com.xie.mybatis2" target="1.7" />
       <module name="data-struct" target="1.7" />
       <module name="DBPools" target="1.7" />
       <module name="demo1" target="1.7" />
@@ -52,6 +59,7 @@
       <module name="spi-test" target="1.7" />
       <module name="spring-api" target="1.7" />
       <module name="spring-provider" target="1.7" />
+      <module name="spring-src-analyze" target="1.7" />
       <module name="spring-xsd-defined" target="1.7" />
       <module name="SpringBootDemo" target="1.7" />
       <module name="StudyBase" target="1.7" />

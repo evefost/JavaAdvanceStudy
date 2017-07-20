@@ -4,13 +4,15 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DBPools/DBPools.iml" filepath="$PROJECT_DIR$/DBPools/DBPools.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyTomcat/MyTomcat.iml" filepath="$PROJECT_DIR$/MyTomcat/MyTomcat.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Mybatis/Mybatis.iml" filepath="$PROJECT_DIR$/Mybatis/Mybatis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Mybatis2/Mybatis2.iml" filepath="$PROJECT_DIR$/Mybatis2/Mybatis2.iml" />
       <module fileurl="file://$PROJECT_DIR$/nio-demos/NettyChat/NettyChat.iml" filepath="$PROJECT_DIR$/nio-demos/NettyChat/NettyChat.iml" />
       <module fileurl="file://$PROJECT_DIR$/nio-demos/NioDemo/NioDemo.iml" filepath="$PROJECT_DIR$/nio-demos/NioDemo/NioDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootDemo/SpringBootDemo.iml" filepath="$PROJECT_DIR$/SpringBootDemo/SpringBootDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/StudyBase.iml" filepath="$PROJECT_DIR$/StudyBase.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZkClientDemo/ZkClientDemo.iml" filepath="$PROJECT_DIR$/ZkClientDemo/ZkClientDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-src-analyze/aop/aop.iml" filepath="$PROJECT_DIR$/spring-src-analyze/aop/aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-src-analyze/aop/aop-demo1/aop-demo1.iml" filepath="$PROJECT_DIR$/spring-src-analyze/aop/aop-demo1/aop-demo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mybatis/com.xie.mybatis.iml" filepath="$PROJECT_DIR$/Mybatis/com.xie.mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mybatis2/com.xie.mybatis2.iml" filepath="$PROJECT_DIR$/Mybatis2/com.xie.mybatis2.iml" />
       <module fileurl="file://$PROJECT_DIR$/data-struct/data-struct.iml" filepath="$PROJECT_DIR$/data-struct/data-struct.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-rpc/demo1/demo1.iml" filepath="$PROJECT_DIR$/java-rpc/demo1/demo1.iml" />
       <module fileurl="file://$PROJECT_DIR$/nio-demos/dongnao-vip-netty/dongnao-vip-netty.iml" filepath="$PROJECT_DIR$/nio-demos/dongnao-vip-netty/dongnao-vip-netty.iml" />
@@ -25,6 +27,7 @@
       <module fileurl="file://$PROJECT_DIR$/java-spi/spi-test/spi-test.iml" filepath="$PROJECT_DIR$/java-spi/spi-test/spi-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootDemo/spring-api/spring-api.iml" filepath="$PROJECT_DIR$/SpringBootDemo/spring-api/spring-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootDemo/spring-provider/spring-provider.iml" filepath="$PROJECT_DIR$/SpringBootDemo/spring-provider/spring-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-src-analyze/spring-src-analyze.iml" filepath="$PROJECT_DIR$/spring-src-analyze/spring-src-analyze.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-xsd-defined/spring-xsd-defined.iml" filepath="$PROJECT_DIR$/spring-xsd-defined/spring-xsd-defined.iml" />
     </modules>
   </component>
