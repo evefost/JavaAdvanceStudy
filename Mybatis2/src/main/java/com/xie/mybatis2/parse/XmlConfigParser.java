@@ -20,7 +20,7 @@ import java.lang.reflect.Field;
  * 2.解释Mapstatement(sql增删改查
  * 3.解释ResultMap(返回结果影射
  */
-public class XMLConfigParser {
+public class XmlConfigParser {
 
     public Configuration parse(InputStream is) throws Exception {
         Configuration configuration = parseConfiguration(is);

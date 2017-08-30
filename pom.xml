@@ -25,9 +25,10 @@
         <module>spring-xsd-defined</module>
         <module>java-spi</module>
         <module>java-class</module>
-        <module>data-struct</module>
         <module>nio-demos</module>
         <module>spring-src-analyze</module>
+        <module>data-struct</module>
+        <module>java-aop</module>
     </modules>
     <dependencyManagement>
         <dependencies>
